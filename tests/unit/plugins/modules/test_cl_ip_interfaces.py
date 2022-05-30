@@ -52,8 +52,14 @@ def test_state_config(manager):
 
     expected_commands = mngr_obj.get_commands(expected_config)
     actual_commands = state_actual_results["commands"]
+<<<<<<< HEAD
 
     assert len(expected_commands) == len(actual_commands)
 
     for cmd in expected_commands:
         assert cmd in actual_commands, f"{cmd} not in {actual_commands}"
+=======
+    assert expected_commands == actual_commands, to_json(
+        {"expected": expected_commands, "actual": actual_commands}
+    )
+>>>>>>> d001a69eb4a5635443aeff1e2bd44ffc14379979
