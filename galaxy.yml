@@ -1,0 +1,10 @@
+---
+authors: Reynold Tabuena <rynldtbuen@gmail.com>
+namespace: rynld
+name: cumulus_linux
+description: Modules in configuring NVIDIA Cumulus Linux using NVUE
+license_file: LICENSE
+readme: README.md
+repository: https://github.com/rynldtbuen/cumlus_linux_collections
+version: 1.0.0
+tags: [network, cumulus linux, nvidia, nvue]

@@ -1,0 +1,8 @@
+*.tar.gz
+__pycache__/
+*.pyc
+bak/
+*.egg-info
+*.bak.py
+.pytest*
+_test*.py
